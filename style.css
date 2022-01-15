@@ -1,5 +1,5 @@
 /* Header */
-body{
+.body{
    margin: auto;
     width: 1080px;
     background: FFFFFF;
@@ -53,6 +53,7 @@ nav a{
 }
 .header-bottom-img{
     width: 440px;
+    margin-right: 50px;
     background-image: url(images/Circle\ design.svg);
     background-size: 450px;
     background-repeat: no-repeat;
@@ -81,7 +82,7 @@ nav a{
     overflow: hidden;
     margin-left: -7px;
 }
-h1{
+.popular-h1{
     text-align: center;
     font-weight: 700;
     font-size: 28px;
