@@ -44,14 +44,19 @@ nav a{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     overflow: hidden;
 }
 .header-bottom-title{
     width:582px;
+    padding-top: 100px;
 }
 .header-bottom-img{
     width: 440px;
+    background-image: url(images/Circle\ design.svg);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    padding-bottom: 75px
 }
 
 .button-right{
@@ -74,7 +79,12 @@ nav a{
     align-content: space-around;
     margin-bottom: 50px;
     overflow: hidden;
-
+    margin-left: -7px;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
 }
 .main-popular{
     display: grid;
@@ -167,7 +177,8 @@ nav a{
     margin-bottom: 60px;
 }
 .footer-icon{
-    font-size: 24px;
+    font-size: 32px;
+    height: 32px;
     margin-right: 10px;
     
 }
